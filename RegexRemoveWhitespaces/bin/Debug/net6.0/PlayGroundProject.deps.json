@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PlayGroundProject/1.0.0": {
+        "runtime": {
+          "PlayGroundProject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlayGroundProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

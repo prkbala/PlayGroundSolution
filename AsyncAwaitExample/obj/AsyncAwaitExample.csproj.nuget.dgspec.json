@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Personal Repos\\PlayGroundSolution\\AsyncAwaitExample\\AsyncAwaitExample.csproj": {}
+  },
+  "projects": {
+    "C:\\Personal Repos\\PlayGroundSolution\\AsyncAwaitExample\\AsyncAwaitExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal Repos\\PlayGroundSolution\\AsyncAwaitExample\\AsyncAwaitExample.csproj",
+        "projectName": "AsyncAwaitExample",
+        "projectPath": "C:\\Personal Repos\\PlayGroundSolution\\AsyncAwaitExample\\AsyncAwaitExample.csproj",
+        "packagesPath": "C:\\Users\\bss\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal Repos\\PlayGroundSolution\\AsyncAwaitExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://aumel-artifactory.leicabio.com/artifactory/api/nuget/bond-softwarenuget-dev-vir": {},
+          "https://aumel-artifactory.leicabio.com/artifactory/api/nuget/bond-softwarenuget-rel-vir": {},
+          "https://aumel-artifactory.leicabio.com/artifactory/api/nuget/bondprime-nuget-dev-vir": {},
+          "https://aumel-artifactory.leicabio.com/artifactory/api/nuget/cern-nuget-rel-vir": {},
+          "https://aumel-artifactory.leicabio.com/artifactory/api/nuget/cern-nuget-rel-vir": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
