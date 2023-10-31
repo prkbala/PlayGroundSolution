@@ -1,33 +1,22 @@
 ﻿
-await TaskExecutor(SendDeviceDetails);
 
-Console.WriteLine("Spun a task and continuing");
+var ts = MyAsyncMethod();
 
-await RunTask();
+Console.WriteLine("Outside of Async");
 
-Thread.Sleep(15000);
-var test = "sdf";
+ts.Wait();
 
-async Task RunTask()
+static async Task MyAsyncMethod()
 {
-    await Task.Run(
-        () =>
-        {
-            Thread.Sleep(10000);
-        });
+    Console.WriteLine("Before await");
+    await SomeAsyncOperation(); // This operation is asynchronous.
+    Console.WriteLine("After await");
 }
 
-void SendDeviceDetails()
+static async Task SomeAsyncOperation()
 {
-    Thread.Sleep(10000);
-}
-
-async Task TaskExecutor(Action action)
-{
-    await Task.Run(
-        () =>
-        {
-            Console.WriteLine("Executing Task");
-            action();
-        });
+    Console.WriteLine("Starting SomeAsyncOperation");
+    // Simulate an asynchronous delay of 5 seconds.
+    await Task.Delay(5000);
+    Console.WriteLine("SomeAsyncOperation completed");
 }
